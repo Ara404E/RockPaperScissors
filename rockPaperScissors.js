@@ -82,4 +82,3 @@ else if(computer>player){
 else{
     console.log('Its A Drawww')
 }
-Its
