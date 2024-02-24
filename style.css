@@ -3,5 +3,35 @@ body{
 }
 .container{
     text-align: center;
-    margin: 10% 7%;
+    margin: 5% 7%;
+}
+
+.outCome{
+    border-color: black;
+    text-align: center;
+    border: 5px solid;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+
+.weaponDiv{
+    margin: 10px;
+}
+
+
+img{ 
+    border-radius: 10%;
+    border: solid blue;
+    height: auto;
+    width: 150px;
+    margin: 50px;
+}
+img:hover{
+    border-radius: 20%;
+    border: solid #FF2E63;
+}
+
+button{
+    margin-top:40px;
 }

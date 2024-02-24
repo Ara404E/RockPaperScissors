@@ -12,22 +12,20 @@
     <div class="container">
 
     
-    <h1 >Rock Paper Scissors</h1>
+    <h1 class="top-heading">Rock Paper Scissors</h1>
     <div class="weaponDiv">
-    <button id="rock" class="btn btn-danger"> Rock </button>
-    <button id="paper" class="btn btn-warning" > Paper </button>
-    <button id="scissors" class="btn btn-info" > Scissors </button> 
+        <img src="image/rock.png" id="rockImg" class="img-fluid" alt="A clickable ">
+        <img src="image/paper.png" id="paperImg" class="img-fluid" alt="A clickable"> 
+        <img src="image/scissors.png" id="scissorsImg" class="img-fluid" alt="A clickable"> 
     </div>
-
-    <div class="outcome">
-        <h1 class="result" >Choose your weapon!!!!</h1>
-        <h1 class="computerScore"></h1>
-        <h1 class="PlayerScore"></h1>
+    <div class="container outCome">
+        <p class="playerScore">User:</p> 
+       <p class="compScore">computer:</p>
     </div>
 
 
     <div class="playAgain">
-                
+                <button class="btn btn-danger" onclick="restartBrowser()">Play Again</button>
     </div>
 </div>
 </body>
